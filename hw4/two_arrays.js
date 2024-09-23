@@ -15,7 +15,7 @@ function findKthElement(arr1, arr2, k) {
         }
     }
 
-    // If we reach the end of one array
+    // ----------
     while (i < arr1.length) {
         kthElement = arr1[i];
         i++;
@@ -34,7 +34,7 @@ function findKthElement(arr1, arr2, k) {
         }
     }
 
-    return -1; // This line should theoretically never be reached
+    return -1; 
 }
 
 let arr1 = [100, 112, 256, 349, 770];
